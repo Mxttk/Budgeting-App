@@ -94,6 +94,8 @@ Implemented feedback:
 - **DetailedExpenses.cs removed**:
   all functionality of .cs is now done in DetailedExpensesXAML.cs
 
+- updated kanban
+
 General:
 - added additional documentation throughout the code
 
