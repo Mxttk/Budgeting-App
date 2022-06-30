@@ -1,0 +1,65 @@
+﻿<Window x:Class="FinalPoe.Vehicles"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FinalPoe"
+        mc:Ignorable="d"
+        Title="Vehicles" Height="700" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize"
+        WindowStyle="None">
+    <Border BorderBrush="Black" BorderThickness="5">
+        <Grid Margin="0,0,0,-0">
+
+            <!--Background Image-->
+            <Grid x:Name="BG" Height="691" VerticalAlignment="Center">
+                <Grid.Background>
+                    <ImageBrush x:Name="img_bg"
+                                ImageSource="Background/background.png"
+                                Stretch="None"/>
+                </Grid.Background>
+            </Grid>
+
+            <!--Stack panel to hold labels and textboxes-->
+            <StackPanel Margin="21,21,19,16">
+                <Label Content="Vehicle" Foreground="Black" FontSize="20" HorizontalAlignment="Center" FontWeight="Bold"></Label>
+                <Separator Background="Black"></Separator>
+
+                <Label Content="Enter the make: " Foreground="Black"></Label>
+                <TextBox Name="tbMake" Background="Black" Foreground="White"></TextBox>
+
+                <Label Content="Enter the model: " Foreground="Black"></Label>
+                <TextBox Name="tbModel" Background="Black" Foreground="White"></TextBox>
+
+                <Label Content="Enter the purchase price: " Foreground="Black"></Label>
+                <TextBox Name="tbPP" Background="Black" Foreground="White"></TextBox>
+
+                <Label Content="Enter the total deposit: " Foreground="Black"></Label>
+                <TextBox Name="tbDeposit" Background="Black" Foreground="White"></TextBox>
+
+                <Label Content="Enter the interest rate: " Foreground="Black"></Label>
+                <TextBox Name="tbInterestRate" Background="Black" Foreground="White"></TextBox>
+
+                <Label Content="Enter the estimated insurance premium: " Foreground="Black"></Label>
+                <TextBox Name="tbInsurance" Background="Black" Foreground="White"></TextBox>
+
+                <Separator Background="Black" Margin="0 10"></Separator>
+
+                <Button Name="enterBtn" Content="Enter" Margin="60 20" Background="Black" Foreground="White" Click="enterBtn_Click"></Button>
+
+                <Separator Background="Black" Margin="0 10"></Separator>
+
+
+                <!--Savings button-->
+                <Button x:Name="savingsBtn" Content="Savings" Background="Black" Foreground="White" Click="savingsBtn_Click" Height="32" Width="222" Margin="0,15,0,0"></Button>
+
+
+                <Separator Background="Black" Margin="0 20"></Separator>
+
+            </StackPanel>
+
+
+
+
+        </Grid>
+    </Border>
+</Window>
