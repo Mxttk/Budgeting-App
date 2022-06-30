@@ -75,7 +75,9 @@ Anon method:  https://tinyurl.com/3ts45zh2
 
 Tutorial for formula to determine monthly savings amount: https://www.youtube.com/watch?v=gBp3v-SVVyQ
          
- Displaying text in textblock: https://stackoverflow.com/questions/18703531/xaml-variables-displayed-in-textblock        
+ Displaying text in textblock: https://stackoverflow.com/questions/18703531/xaml-variables-displayed-in-textblock     
+ 
+ To the power of: https://stackoverflow.com/questions/1366584/how-do-i-calculate-power-of-in-c
     
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Changelog:
