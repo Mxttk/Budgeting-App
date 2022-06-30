@@ -74,8 +74,9 @@ Delegates:  https://tinyurl.com/237tdwh7
 Anon method:  https://tinyurl.com/3ts45zh2
 
 Tutorial for formula to determine monthly savings amount: https://www.youtube.com/watch?v=gBp3v-SVVyQ
-
          
+ Displaying text in textblock: https://stackoverflow.com/questions/18703531/xaml-variables-displayed-in-textblock        
+    
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Changelog:
 
